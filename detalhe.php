@@ -1,5 +1,6 @@
+<?php include "conexao.php"; ?>
+<?php include "cabecalho.php"; ?>
 <?php
-include "conexao.php";
 $id = $_GET['id'];
 $sql = "SELECT * FROM produtos WHERE id = $id";
 $resultado = $conexao->query($sql);

@@ -1,0 +1,24 @@
+body {
+   
+    background-color: #747174;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .bg-papelaria {
+    background-color: #20c3c9; 
+  }
+  
+  .navbar .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+ 
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  
+  .btn-primary, .btn-success {
+    border-radius: 20px;
+  }

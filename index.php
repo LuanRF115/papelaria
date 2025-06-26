@@ -1,4 +1,5 @@
 <?php include "conexao.php"; ?>
+<?php include "cabecalho.php"; ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -15,13 +16,13 @@
   <div id="carouselExample" class="carousel slide mb-5" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/banner1.jpg" class="d-block w-100" alt="Banner 1">
+        <img src="https://images.tcdn.com.br/img/img_prod/1106500/1749736465_desktop_2.jpg" class="d-block w-100" alt="Banner 1">
       </div>
       <div class="carousel-item">
-        <img src="img/banner2.jpg" class="d-block w-100" alt="Banner 2">
+        <img src="https://images.tcdn.com.br/img/img_prod/1106500/1747060317_desktop_9.jpg" class="d-block w-100" alt="Banner 2">
       </div>
       <div class="carousel-item">
-        <img src="img/banner3.jpg" class="d-block w-100" alt="Banner 3">
+        <img src="https://images.tcdn.com.br/img/img_prod/1106500/1748440945_desktop_2.jpg" class="d-block w-100" alt="Banner 3">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -56,7 +57,7 @@
     <a href="listagem.php" class="btn btn-outline-secondary">Ver todos os produtos</a>
   </div>
 </div>
-
+<?php include "rodape.php"; ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

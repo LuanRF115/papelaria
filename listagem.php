@@ -1,4 +1,5 @@
 <?php include "conexao.php"; ?>
+<?php include "cabecalho.php"; ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -29,6 +30,6 @@
     <?php } ?>
   </div>
 </div>
-
+<?php include "rodape.php"; ?>
 </body>
 </html>
