@@ -7,13 +7,13 @@
   <meta charset="UTF-8">
   <title>Papelaria Criativa</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css"> <!-- link para seu CSS -->
 </head>
 
 <body>
 
   <div class="container mt-4">
     <h1 class="text-center mb-4">Papelaria Criativa</h1>
-
 
     <div id="carouselExample" class="carousel slide mb-5" data-bs-ride="carousel">
       <div class="carousel-inner">
@@ -62,7 +62,7 @@
       <div class="col-6 align-content-center">
         <p class="fs-5 fw-light">🎨 Caderno de Colorir Boobbie Goods – Descrição Completa
           Descrição:
-          O Caderno de Colorir Boobbie Goods é perfeito para soltar a criatividade dos pequenos (e dos grandões também!).
+          O Caderno de Colorir Boobbie Goods é perfeito para soltar a criatividade dos pequenos (e dos grandões também!). 
           Com páginas divertidas para colorir e canetinhas inclusas, ele transforma qualquer momento em pura diversão educativa. Ideal para estimular a imaginação, coordenação motora e o amor pelas cores!
         </p>
         <p class="fs-5 fw-light">Destaques:
@@ -79,6 +79,7 @@
         <a href="detalhe.php?id=12" class="btn btn-success btn-lg">ADQUIRA AGORA</a>
       </div>
     </div>
+
     <div class="row">
       <div class="col-6 align-content-center">
         <p class="fs-5 fw-light">🎨 Estojo de Canetinha Colorir Boobbie Goods – Descrição Completa
@@ -102,10 +103,11 @@
       </div>
     </div>
 
-    <div class="text-center">
+    <div class="text-center mt-5">
       <a href="listagem.php" class="btn btn-outline-secondary">Ver todos os produtos</a>
     </div>
   </div>
+
   <?php include "rodape.php"; ?>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
